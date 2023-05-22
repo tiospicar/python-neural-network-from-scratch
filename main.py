@@ -176,8 +176,8 @@ class GUI:
 
     def Save(self):
         self.points = self.Normalize(self.points)
-        if (len(self.points) != 0 and self.referenceText.get("1.0", "end-1c").isdigit()):
-            self.points.append(int(self.referenceText.get("1.0", "end-1c")))
+        if (len(self.points) != 0):
+            self.points.append(self.referenceText.get("1.0", "end-1c"))
             
             self.savedPoints.append([])
             for p in self.points:
