@@ -12,7 +12,7 @@ UI explanation:
 - "Train" button trains the network (use when you are done with creating training samples)
 - in "Label" textbox set the name of the data sample that is drawn on the canvas
 
-I found out that these parameters are working great:
+I found that these parameters work great:
 - Points: 20
 - Learning rate: 0.1
 - Hidden layer neurons: 100
