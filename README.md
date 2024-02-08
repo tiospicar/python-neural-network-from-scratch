@@ -11,7 +11,7 @@ matplotlib  | 3.4.3
 
 # Instructions
 
-When you first run the script *main.py*, you need to train the network. Set the parameters you want or use the ones below. Draw the sample, give it label in the "Label" textbox and click the "Save button" to save the training sample. Draw at least 5 samples for each label.
+When you first run *main.py* script, you need to train the network. Set the parameters you want or use the ones below. Draw the sample, give it label in the "Label" textbox and click the "Save button" to save the training sample. Draw at least 5 samples for each label.
 
 UI explanation:
 - "Clear" button clears the canvas
