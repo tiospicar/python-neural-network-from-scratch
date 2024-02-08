@@ -1,10 +1,17 @@
 # python-neural-network-from-scratch
-Simple neural network that can recognize handwritten doodles.
-The versions in the requirements file are the ones I used, but you can use the latest versions.
+Simple neural network written from scratch that can recognize handwritten doodles.
 
-### Training
+# Requirements
 
-When you first run the script, you need to train the network. Set the parameters you want or use the ones below. Draw the sample, give it label in the "Label" textbox and click the "Save button" to save the training sample. Draw at least 5 samples for each label.
+Module  | Version
+------------- | -------------
+tkintertable  | 1.3.2
+numpy  | 1.21.0
+matplotlib  | 3.4.3
+
+# Instructions
+
+When you first run the script *main.py*, you need to train the network. Set the parameters you want or use the ones below. Draw the sample, give it label in the "Label" textbox and click the "Save button" to save the training sample. Draw at least 5 samples for each label.
 
 UI explanation:
 - "Clear" button clears the canvas
@@ -18,16 +25,5 @@ I found that these parameters work great:
 - Hidden layer neurons: 100
 - Epochs: 100
 
-![image](https://github.com/Timbelion/python-neural-network-from-scratch/assets/76007113/8e8296ed-4915-46e4-80d0-e93e0f308b02)
-
-### Query
-
 After you've finished drawing samples and clicked the "Train" button, wait until the network is trained (check the console) and you can start testing it! 
 Start drawing your doodles on the canvas and network will write its prediction in the "NN guess" label.
-
-![image](https://github.com/Timbelion/python-neural-network-from-scratch/assets/76007113/4362088f-7b6a-4b7f-ad5a-fc31f66605cb)
-
-
-
-
-
